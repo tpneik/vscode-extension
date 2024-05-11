@@ -1,0 +1,7 @@
+{
+    "name": "Nodejs18",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "nodejs",
+    "workspaceFolder": "/workspaces",
+    "shutdownAction": "stopCompose"
+  }
