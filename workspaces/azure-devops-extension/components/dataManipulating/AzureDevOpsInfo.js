@@ -1,3 +1,4 @@
+"use strict";
 const axios = require('axios')
 const dotenv = require('dotenv');
 dotenv.config({ path: '/workspaces/azure-devops-extension/.env'});
@@ -30,6 +31,15 @@ class AzureDevOpsInfo{
 			const URL = `${this.baseUrl}/${organization||this.organization}/${project||this.project}/_apis/build/builds/${buildId}?api-version=${apiVersion||this.apiVersion}`
 			let data = await this.api.get(URL).then(response=> {
 				return response?.data?.triggerInfo["ci.sourceSha"] || "NOT OBJECT"	
+			})
+			return data
+		}
+
+		static async getListBuild({organization, project, apiVersion} = {}){
+			// https://dev.azure.com/20521491/kienpt_learning/_apis/build/builds?api-version=4.1
+			const URL = `${this.baseUrl}/${organization||this.organization}/${project||this.project}/_apis/build/builds/?api-version=${apiVersion||this.apiVersion}`
+			let data = await this.api.get(URL).then(response=> {
+				return response?.data?.value || "NOT OBJECT"	
 			})
 			return data
 		}

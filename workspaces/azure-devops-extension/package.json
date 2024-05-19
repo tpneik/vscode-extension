@@ -12,12 +12,27 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "azure-devops-extension.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+    "viewsContainers": {
+      "activitybar": [
+          {
+              "id": "hurricane-icon-ext", 
+              "title": "AZURE DEVOPS CHECK",     
+              "icon": "resources/hurricane-svgrepo-com.svg" 
+          }
+      ]
+    },
+    "views": {
+      "hurricane-icon-ext": [
+        {
+          "id": "build-list",
+          "name": "BUILD LIST"        
+        },
+        {
+          "id": "build-in-detail",
+          "name": "In detail"        
+        }
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint .",

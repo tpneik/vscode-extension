@@ -1,28 +1,15 @@
-
 const vscode = require('vscode')
-const AzInfo = require('./components/AzureDevOpsInfo')
-/**
- * @param {vscode.ExtensionContext} context
- */
-
+// const AzInfo = require('./components/AzureDevOpsInfo')
+const ListBuildInfoProvider = require('./components/sidebarBuildProvider')
 function activate(context) {
-
-
-	console.log('Congratulations, your extension "azure-devops-extension" is now active!');
-
-	let disposable = vscode.commands.registerCommand('azure-devops-extension.helloWorld', function () {
-		try{
-			AzInfo.getCommitId(1).then(response => {
-				vscode.window.showInformationMessage(response)
-			})
-		} catch(error){
-			console.log(error)
-		}
-	});
-
-	context.subscriptions.push(disposable);
+	const dataPath = "/workspaces/azure-devops-extension/resources/data/scrubedData.json"
+	const TreeDataProvider = new ListBuildInfoProvider.ListBuildInfoProvider(dataPath)
+	vscode.window.registerTreeDataProvider("build-list",TreeDataProvider)
+	vscode.commands.registerCommand(
+		'extension.openAzureDevOpsBuildlink', 
+		url => vscode.commands.executeCommand('vscode.open', vscode.Uri.parse(`${url}`))
+	);
 }
-
 function deactivate() {}
 
 module.exports = {

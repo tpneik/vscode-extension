@@ -1,0 +1,49 @@
+{
+  "value": [
+    {
+      "id": 4,
+      "status": "completed",
+      "result": "failed",
+      "link": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_build/results?buildId=4",
+      "triggerInfo": {},
+      "buildNumber": "20240510.4",
+      "requestFor": "Kiên Phan Trung"
+    },
+    {
+      "id": 3,
+      "status": "completed",
+      "result": "failed",
+      "link": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_build/results?buildId=3",
+      "triggerInfo": {
+        "ci.sourceBranch": "refs/heads/master",
+        "ci.sourceSha": "847fdc4e434347a343942fc3a4bb99dd17b7f8dd",
+        "ci.message": "Update azure-pipelines.yml for Azure Pipelines",
+        "ci.triggerRepository": "tpneik/promefana"
+      },
+      "buildNumber": "20240510.3",
+      "requestFor": "Microsoft.VisualStudio.Services.TFS"
+    },
+    {
+      "id": 2,
+      "status": "completed",
+      "result": "failed",
+      "link": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_build/results?buildId=2",
+      "triggerInfo": {},
+      "buildNumber": "20240510.2",
+      "requestFor": "Kiên Phan Trung"
+    },
+    {
+      "id": 1,
+      "status": "completed",
+      "result": "failed",
+      "link": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_build/results?buildId=1",
+      "triggerInfo": {
+        "ci.sourceBranch": "master",
+        "ci.sourceSha": "2dfcdaaf6d9f0eafeef6db177f1258cc17a85562",
+        "ci.message": "Set up CI with Azure Pipelines"
+      },
+      "buildNumber": "20240510.1",
+      "requestFor": "Kiên Phan Trung"
+    }
+  ]
+}

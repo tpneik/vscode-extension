@@ -1,0 +1,562 @@
+{
+    "count": 4,
+    "value": [
+        {
+            "_links": {
+                "self": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Builds/4"
+                },
+                "web": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_build/results?buildId=4"
+                },
+                "sourceVersionDisplayUri": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/4/sources"
+                },
+                "timeline": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/4/Timeline"
+                },
+                "badge": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/status/1"
+                }
+            },
+            "properties": {},
+            "tags": [],
+            "validationResults": [],
+            "plans": [
+                {
+                    "planId": "01676202-6f2a-4583-bebe-29fb33716653"
+                }
+            ],
+            "triggerInfo": {},
+            "id": 4,
+            "buildNumber": "20240510.4",
+            "status": "completed",
+            "result": "failed",
+            "queueTime": "2024-05-10T16:59:57.5628235Z",
+            "startTime": "2024-05-10T17:00:00.9741733Z",
+            "finishTime": "2024-05-10T17:00:00.9741733Z",
+            "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Builds/4",
+            "definition": {
+                "drafts": [],
+                "id": 1,
+                "name": "tpneik.promefana",
+                "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Definitions/1?revision=1",
+                "uri": "vstfs:///Build/Definition/1",
+                "path": "\\",
+                "type": "build",
+                "queueStatus": "enabled",
+                "revision": 1,
+                "project": {
+                    "id": "954019d0-809e-4475-ab32-10d300c9bbd9",
+                    "name": "kienpt_learning",
+                    "url": "https://dev.azure.com/20521491/_apis/projects/954019d0-809e-4475-ab32-10d300c9bbd9",
+                    "state": "wellFormed",
+                    "revision": 11,
+                    "visibility": "private",
+                    "lastUpdateTime": "2023-06-13T08:15:46.363Z"
+                }
+            },
+            "buildNumberRevision": 4,
+            "project": {
+                "id": "954019d0-809e-4475-ab32-10d300c9bbd9",
+                "name": "kienpt_learning",
+                "url": "https://dev.azure.com/20521491/_apis/projects/954019d0-809e-4475-ab32-10d300c9bbd9",
+                "state": "wellFormed",
+                "revision": 11,
+                "visibility": "private",
+                "lastUpdateTime": "2023-06-13T08:15:46.363Z"
+            },
+            "uri": "vstfs:///Build/Build/4",
+            "sourceBranch": "refs/heads/master",
+            "sourceVersion": "847fdc4e434347a343942fc3a4bb99dd17b7f8dd",
+            "queue": {
+                "id": 9,
+                "name": "Azure Pipelines",
+                "pool": {
+                    "id": 9,
+                    "name": "Azure Pipelines",
+                    "isHosted": true
+                }
+            },
+            "priority": "normal",
+            "reason": "manual",
+            "requestedFor": {
+                "displayName": "Kiên Phan Trung",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/301be741-b1fc-6d92-b6bf-3369608aee82",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+                    }
+                },
+                "id": "301be741-b1fc-6d92-b6bf-3369608aee82",
+                "uniqueName": "20521491@ms.uit.edu.vn",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy",
+                "descriptor": "aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+            },
+            "requestedBy": {
+                "displayName": "Kiên Phan Trung",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/301be741-b1fc-6d92-b6bf-3369608aee82",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+                    }
+                },
+                "id": "301be741-b1fc-6d92-b6bf-3369608aee82",
+                "uniqueName": "20521491@ms.uit.edu.vn",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy",
+                "descriptor": "aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+            },
+            "lastChangedDate": "2024-05-10T17:00:01.113Z",
+            "lastChangedBy": {
+                "displayName": "Microsoft.VisualStudio.Services.TFS",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/00000002-0000-8888-8000-000000000000",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    }
+                },
+                "id": "00000002-0000-8888-8000-000000000000",
+                "uniqueName": "00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA",
+                "descriptor": "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "orchestrationPlan": {
+                "planId": "01676202-6f2a-4583-bebe-29fb33716653"
+            },
+            "logs": {
+                "id": 0,
+                "type": "Container",
+                "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/4/logs"
+            },
+            "repository": {
+                "id": "tpneik/promefana",
+                "type": "GitHub",
+                "clean": null,
+                "checkoutSubmodules": false
+            },
+            "retainedByRelease": false,
+            "triggeredByBuild": null,
+            "appendCommitMessageToRunName": true
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Builds/3"
+                },
+                "web": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_build/results?buildId=3"
+                },
+                "sourceVersionDisplayUri": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/3/sources"
+                },
+                "timeline": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/3/Timeline"
+                },
+                "badge": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/status/1"
+                }
+            },
+            "properties": {},
+            "tags": [],
+            "validationResults": [],
+            "plans": [
+                {
+                    "planId": "2f7690fb-b81f-4f26-b4b5-be79f466b74a"
+                }
+            ],
+            "triggerInfo": {
+                "ci.sourceBranch": "refs/heads/master",
+                "ci.sourceSha": "847fdc4e434347a343942fc3a4bb99dd17b7f8dd",
+                "ci.message": "Update azure-pipelines.yml for Azure Pipelines",
+                "ci.triggerRepository": "tpneik/promefana"
+            },
+            "id": 3,
+            "buildNumber": "20240510.3",
+            "status": "completed",
+            "result": "failed",
+            "queueTime": "2024-05-10T16:59:44.7240077Z",
+            "startTime": "2024-05-10T16:59:47.2248166Z",
+            "finishTime": "2024-05-10T16:59:47.2248166Z",
+            "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Builds/3",
+            "definition": {
+                "drafts": [],
+                "id": 1,
+                "name": "tpneik.promefana",
+                "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Definitions/1?revision=1",
+                "uri": "vstfs:///Build/Definition/1",
+                "path": "\\",
+                "type": "build",
+                "queueStatus": "enabled",
+                "revision": 1,
+                "project": {
+                    "id": "954019d0-809e-4475-ab32-10d300c9bbd9",
+                    "name": "kienpt_learning",
+                    "url": "https://dev.azure.com/20521491/_apis/projects/954019d0-809e-4475-ab32-10d300c9bbd9",
+                    "state": "wellFormed",
+                    "revision": 11,
+                    "visibility": "private",
+                    "lastUpdateTime": "2023-06-13T08:15:46.363Z"
+                }
+            },
+            "buildNumberRevision": 3,
+            "project": {
+                "id": "954019d0-809e-4475-ab32-10d300c9bbd9",
+                "name": "kienpt_learning",
+                "url": "https://dev.azure.com/20521491/_apis/projects/954019d0-809e-4475-ab32-10d300c9bbd9",
+                "state": "wellFormed",
+                "revision": 11,
+                "visibility": "private",
+                "lastUpdateTime": "2023-06-13T08:15:46.363Z"
+            },
+            "uri": "vstfs:///Build/Build/3",
+            "sourceBranch": "refs/heads/master",
+            "sourceVersion": "847fdc4e434347a343942fc3a4bb99dd17b7f8dd",
+            "queue": {
+                "id": 9,
+                "name": "Azure Pipelines",
+                "pool": {
+                    "id": 9,
+                    "name": "Azure Pipelines",
+                    "isHosted": true
+                }
+            },
+            "priority": "normal",
+            "reason": "individualCI",
+            "requestedFor": {
+                "displayName": "Microsoft.VisualStudio.Services.TFS",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/00000002-0000-8888-8000-000000000000",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    }
+                },
+                "id": "00000002-0000-8888-8000-000000000000",
+                "uniqueName": "00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA",
+                "descriptor": "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "requestedBy": {
+                "displayName": "Microsoft.VisualStudio.Services.TFS",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/00000002-0000-8888-8000-000000000000",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    }
+                },
+                "id": "00000002-0000-8888-8000-000000000000",
+                "uniqueName": "00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA",
+                "descriptor": "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "lastChangedDate": "2024-05-10T16:59:47.317Z",
+            "lastChangedBy": {
+                "displayName": "Microsoft.VisualStudio.Services.TFS",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/00000002-0000-8888-8000-000000000000",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    }
+                },
+                "id": "00000002-0000-8888-8000-000000000000",
+                "uniqueName": "00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA",
+                "descriptor": "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "orchestrationPlan": {
+                "planId": "2f7690fb-b81f-4f26-b4b5-be79f466b74a"
+            },
+            "logs": {
+                "id": 0,
+                "type": "Container",
+                "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/3/logs"
+            },
+            "repository": {
+                "id": "tpneik/promefana",
+                "type": "GitHub",
+                "clean": null,
+                "checkoutSubmodules": false
+            },
+            "retainedByRelease": false,
+            "triggeredByBuild": null,
+            "appendCommitMessageToRunName": true
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Builds/2"
+                },
+                "web": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_build/results?buildId=2"
+                },
+                "sourceVersionDisplayUri": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/2/sources"
+                },
+                "timeline": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/2/Timeline"
+                },
+                "badge": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/status/1"
+                }
+            },
+            "properties": {},
+            "tags": [],
+            "validationResults": [],
+            "plans": [
+                {
+                    "planId": "2d54d51c-7615-4cc8-bfa0-16e14cd6c600"
+                }
+            ],
+            "triggerInfo": {},
+            "id": 2,
+            "buildNumber": "20240510.2",
+            "status": "completed",
+            "result": "failed",
+            "queueTime": "2024-05-10T16:57:12.4711146Z",
+            "startTime": "2024-05-10T16:57:16.0947342Z",
+            "finishTime": "2024-05-10T16:57:16.0947342Z",
+            "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Builds/2",
+            "definition": {
+                "drafts": [],
+                "id": 1,
+                "name": "tpneik.promefana",
+                "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Definitions/1?revision=1",
+                "uri": "vstfs:///Build/Definition/1",
+                "path": "\\",
+                "type": "build",
+                "queueStatus": "enabled",
+                "revision": 1,
+                "project": {
+                    "id": "954019d0-809e-4475-ab32-10d300c9bbd9",
+                    "name": "kienpt_learning",
+                    "url": "https://dev.azure.com/20521491/_apis/projects/954019d0-809e-4475-ab32-10d300c9bbd9",
+                    "state": "wellFormed",
+                    "revision": 11,
+                    "visibility": "private",
+                    "lastUpdateTime": "2023-06-13T08:15:46.363Z"
+                }
+            },
+            "buildNumberRevision": 2,
+            "project": {
+                "id": "954019d0-809e-4475-ab32-10d300c9bbd9",
+                "name": "kienpt_learning",
+                "url": "https://dev.azure.com/20521491/_apis/projects/954019d0-809e-4475-ab32-10d300c9bbd9",
+                "state": "wellFormed",
+                "revision": 11,
+                "visibility": "private",
+                "lastUpdateTime": "2023-06-13T08:15:46.363Z"
+            },
+            "uri": "vstfs:///Build/Build/2",
+            "sourceBranch": "refs/heads/master",
+            "sourceVersion": "2dfcdaaf6d9f0eafeef6db177f1258cc17a85562",
+            "queue": {
+                "id": 9,
+                "name": "Azure Pipelines",
+                "pool": {
+                    "id": 9,
+                    "name": "Azure Pipelines",
+                    "isHosted": true
+                }
+            },
+            "priority": "normal",
+            "reason": "manual",
+            "requestedFor": {
+                "displayName": "Kiên Phan Trung",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/301be741-b1fc-6d92-b6bf-3369608aee82",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+                    }
+                },
+                "id": "301be741-b1fc-6d92-b6bf-3369608aee82",
+                "uniqueName": "20521491@ms.uit.edu.vn",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy",
+                "descriptor": "aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+            },
+            "requestedBy": {
+                "displayName": "Kiên Phan Trung",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/301be741-b1fc-6d92-b6bf-3369608aee82",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+                    }
+                },
+                "id": "301be741-b1fc-6d92-b6bf-3369608aee82",
+                "uniqueName": "20521491@ms.uit.edu.vn",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy",
+                "descriptor": "aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+            },
+            "lastChangedDate": "2024-05-10T16:57:16.217Z",
+            "lastChangedBy": {
+                "displayName": "Microsoft.VisualStudio.Services.TFS",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/00000002-0000-8888-8000-000000000000",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    }
+                },
+                "id": "00000002-0000-8888-8000-000000000000",
+                "uniqueName": "00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA",
+                "descriptor": "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "orchestrationPlan": {
+                "planId": "2d54d51c-7615-4cc8-bfa0-16e14cd6c600"
+            },
+            "logs": {
+                "id": 0,
+                "type": "Container",
+                "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/2/logs"
+            },
+            "repository": {
+                "id": "tpneik/promefana",
+                "type": "GitHub",
+                "clean": null,
+                "checkoutSubmodules": false
+            },
+            "retainedByRelease": false,
+            "triggeredByBuild": null,
+            "appendCommitMessageToRunName": true
+        },
+        {
+            "_links": {
+                "self": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Builds/1"
+                },
+                "web": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_build/results?buildId=1"
+                },
+                "sourceVersionDisplayUri": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/1/sources"
+                },
+                "timeline": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/1/Timeline"
+                },
+                "badge": {
+                    "href": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/status/1"
+                }
+            },
+            "properties": {},
+            "tags": [],
+            "validationResults": [],
+            "plans": [
+                {
+                    "planId": "2b2bdd73-ea0e-4166-803a-95212ecd2f38"
+                }
+            ],
+            "triggerInfo": {
+                "ci.sourceBranch": "master",
+                "ci.sourceSha": "2dfcdaaf6d9f0eafeef6db177f1258cc17a85562",
+                "ci.message": "Set up CI with Azure Pipelines"
+            },
+            "id": 1,
+            "buildNumber": "20240510.1",
+            "status": "completed",
+            "result": "failed",
+            "queueTime": "2024-05-10T16:15:50.4795974Z",
+            "startTime": "2024-05-10T16:15:56.8217499Z",
+            "finishTime": "2024-05-10T16:15:56.8217499Z",
+            "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Builds/1",
+            "definition": {
+                "drafts": [],
+                "id": 1,
+                "name": "tpneik.promefana",
+                "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/Definitions/1?revision=1",
+                "uri": "vstfs:///Build/Definition/1",
+                "path": "\\",
+                "type": "build",
+                "queueStatus": "enabled",
+                "revision": 1,
+                "project": {
+                    "id": "954019d0-809e-4475-ab32-10d300c9bbd9",
+                    "name": "kienpt_learning",
+                    "url": "https://dev.azure.com/20521491/_apis/projects/954019d0-809e-4475-ab32-10d300c9bbd9",
+                    "state": "wellFormed",
+                    "revision": 11,
+                    "visibility": "private",
+                    "lastUpdateTime": "2023-06-13T08:15:46.363Z"
+                }
+            },
+            "buildNumberRevision": 1,
+            "project": {
+                "id": "954019d0-809e-4475-ab32-10d300c9bbd9",
+                "name": "kienpt_learning",
+                "url": "https://dev.azure.com/20521491/_apis/projects/954019d0-809e-4475-ab32-10d300c9bbd9",
+                "state": "wellFormed",
+                "revision": 11,
+                "visibility": "private",
+                "lastUpdateTime": "2023-06-13T08:15:46.363Z"
+            },
+            "uri": "vstfs:///Build/Build/1",
+            "sourceBranch": "refs/heads/master",
+            "sourceVersion": "2dfcdaaf6d9f0eafeef6db177f1258cc17a85562",
+            "queue": {
+                "id": 9,
+                "name": "Azure Pipelines",
+                "pool": {
+                    "id": 9,
+                    "name": "Azure Pipelines",
+                    "isHosted": true
+                }
+            },
+            "priority": "normal",
+            "reason": "individualCI",
+            "requestedFor": {
+                "displayName": "Kiên Phan Trung",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/301be741-b1fc-6d92-b6bf-3369608aee82",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+                    }
+                },
+                "id": "301be741-b1fc-6d92-b6bf-3369608aee82",
+                "uniqueName": "20521491@ms.uit.edu.vn",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy",
+                "descriptor": "aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+            },
+            "requestedBy": {
+                "displayName": "Kiên Phan Trung",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/301be741-b1fc-6d92-b6bf-3369608aee82",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+                    }
+                },
+                "id": "301be741-b1fc-6d92-b6bf-3369608aee82",
+                "uniqueName": "20521491@ms.uit.edu.vn",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy",
+                "descriptor": "aad.MzAxYmU3NDEtYjFmYy03ZDkyLWI2YmYtMzM2OTYwOGFlZTgy"
+            },
+            "lastChangedDate": "2024-05-10T16:15:56.93Z",
+            "lastChangedBy": {
+                "displayName": "Microsoft.VisualStudio.Services.TFS",
+                "url": "https://spsprodcus4.vssps.visualstudio.com/A8b667e89-2606-42a2-849f-a8d8caa7f01b/_apis/Identities/00000002-0000-8888-8000-000000000000",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    }
+                },
+                "id": "00000002-0000-8888-8000-000000000000",
+                "uniqueName": "00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                "imageUrl": "https://dev.azure.com/20521491/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA",
+                "descriptor": "s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+            },
+            "orchestrationPlan": {
+                "planId": "2b2bdd73-ea0e-4166-803a-95212ecd2f38"
+            },
+            "logs": {
+                "id": 0,
+                "type": "Container",
+                "url": "https://dev.azure.com/20521491/954019d0-809e-4475-ab32-10d300c9bbd9/_apis/build/builds/1/logs"
+            },
+            "repository": {
+                "id": "tpneik/promefana",
+                "type": "GitHub",
+                "clean": null,
+                "checkoutSubmodules": false
+            },
+            "retainedByRelease": false,
+            "triggeredByBuild": null,
+            "appendCommitMessageToRunName": true
+        }
+    ]
+}
